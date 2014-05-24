@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\BMP">
+      <UniqueIdentifier>{497deea1-7d5f-4a28-80f4-0d126afc7593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{2d54495b-8ab7-4e91-adac-a5e69cd6253d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files">
+      <UniqueIdentifier>{05502c07-41ee-41c7-a708-05d7952a7332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files">
+      <UniqueIdentifier>{ba7059cd-9485-47d3-9f5f-4b2cc6856d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Inline Files">
+      <UniqueIdentifier>{59de906f-abfb-4352-8565-8c32707eacf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{2eaab33a-a2c1-46fe-bdfc-25c4281289f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Game">
+      <UniqueIdentifier>{5134f101-b1e2-4eb1-ae57-aa340a22fdc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Game\Header Files">
+      <UniqueIdentifier>{9fa48688-85d7-480f-b400-33170a905fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Game\Source Files">
+      <UniqueIdentifier>{4092d9af-9dd5-44b6-ae21-005c08550c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Game\Source Inline Files">
+      <UniqueIdentifier>{ee6bada1-bd7d-4565-aab3-a575359b08af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{d7333198-39a9-4b67-976d-1f1a0dc6fce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\Header Files">
+      <UniqueIdentifier>{db126519-866c-4753-8a99-71e3e95f6cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_MessageManager">
+      <UniqueIdentifier>{d1322dad-1b08-4e7c-8704-22c616e1a623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_MessageManager\Header Files">
+      <UniqueIdentifier>{b435da9d-efd1-44ca-b0ff-8b03d122147e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_MessageManager\Source Files">
+      <UniqueIdentifier>{b0691f1f-13e8-44b6-8e02-b704d3faf1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Dialog">
+      <UniqueIdentifier>{39791d28-a492-4b9b-bed5-0f220a2e0133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Dialog\Header Files">
+      <UniqueIdentifier>{463858d1-3208-49ee-9f3b-1973fec215c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Dialog\Source Inline Files">
+      <UniqueIdentifier>{ae853102-99d8-420e-8106-3f92e97364a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Dialog\Source Files">
+      <UniqueIdentifier>{ff12206b-e7a8-4a47-81af-a59469c6073a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Dialog\_DialogItems">
+      <UniqueIdentifier>{8604724d-f77b-406b-aa04-ecb3ffbbdc0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Dialog\_DialogItems\Header Files">
+      <UniqueIdentifier>{8d7dad55-352f-4a4e-b44c-3e7b50727704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Dialog\_DialogItems\Source Inline Files">
+      <UniqueIdentifier>{25a8720f-c361-4ed1-b751-1959a9261fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Dialog\_DialogItems\Source Files">
+      <UniqueIdentifier>{375a1882-f12a-4f9f-9cbc-88215973d18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\Source Files">
+      <UniqueIdentifier>{fdd2a9ef-f5ff-4582-8687-0776a9e455c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\Source Inline Files">
+      <UniqueIdentifier>{a4f63a50-6e35-4ad4-b14a-f872229a6397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_IniParser">
+      <UniqueIdentifier>{959666be-7f5b-4d1d-976e-51f4d07649f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_IniParser\Header Files">
+      <UniqueIdentifier>{4cdaa44d-6a48-40eb-b4bf-9f42d4543e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_IniParser\Source Files">
+      <UniqueIdentifier>{2d2bf957-1240-4a7d-9db6-ca74ff752b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Logger">
+      <UniqueIdentifier>{8c2c7b29-4e14-4fc0-82ba-debab174c085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Logger\Header Files">
+      <UniqueIdentifier>{f26aeef2-5e7a-4225-821f-ff2303bea5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Logger\Source Inline Files">
+      <UniqueIdentifier>{732d5f24-386b-4e4b-999a-000b87b0a2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Framework\_Logger\Source Files">
+      <UniqueIdentifier>{8c45d3da-55dd-4443-ba86-5b4dafdde926}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Player.inl">
+      <Filter>Scene\Game\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Table.inl">
+      <Filter>Scene\Game\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Ball.inl">
+      <Filter>Scene\Game\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Cue.inl">
+      <Filter>Scene\Game\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Game.inl">
+      <Filter>Scene\Game\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Text.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Sphere.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\RotationSprite.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Plane.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\PhysicsEngine.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Button.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Line.inl">
+      <Filter>Core\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\DialogItem.inl">
+      <Filter>_Framework\_Dialog\_DialogItems\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Dialog.inl">
+      <Filter>_Framework\_Dialog\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\LogManager.inl">
+      <Filter>_Framework\_Logger\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Application.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\BackBuffer.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Entity.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\GameWindow.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Sprite.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\SpriteCache.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\Vector3.inl">
+      <Filter>_Framework\Source Inline Files</Filter>
+    </None>
+    <None Include="Source\BMP\Ball3.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball4.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball5.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball6.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball7.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball8.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball9.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball10.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball11.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball12.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball13.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball14.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball15.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\BallMask.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\BallWhite.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Button_Restart.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Button_RestartMask.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Cue.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\CueLineCircle.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\CueLineCircleMask.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\CueMask.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Table.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\TableAlternate.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\TableAlternateMask.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\TableMask.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball1.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+    <None Include="Source\BMP\Ball2.bmp">
+      <Filter>Resource Files\BMP</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebugDialog.h">
+      <Filter>_Framework\_Dialog\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog.h">
+      <Filter>_Framework\_Dialog\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Referee.h">
+      <Filter>Scene\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Table.h">
+      <Filter>Scene\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ball.h">
+      <Filter>Scene\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Cue.h">
+      <Filter>Scene\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game.h">
+      <Filter>Scene\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameDefines.h">
+      <Filter>Scene\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Scene\Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Plane.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RotationSprite.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sphere.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Line.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsEngine.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsTarget.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextField.h">
+      <Filter>_Framework\_Dialog\_DialogItems\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TickBox.h">
+      <Filter>_Framework\_Dialog\_DialogItems\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComboBox.h">
+      <Filter>_Framework\_Dialog\_DialogItems\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DebugDialog.h">
+      <Filter>_Framework\_Dialog\_DialogItems\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IniParser.h">
+      <Filter>_Framework\_IniParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LogManager.h">
+      <Filter>_Framework\_Logger\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LogOutputWindow.h">
+      <Filter>_Framework\_Logger\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LogTarget.h">
+      <Filter>_Framework\_Logger\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LogGameWindow.h">
+      <Filter>_Framework\_Logger\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MessageManager.h">
+      <Filter>_Framework\_MessageManager\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MessageTarget.h">
+      <Filter>_Framework\_MessageManager\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteCache.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utilities.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector3.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BackBuffer.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Clock.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Entity.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameWindow.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PerformanceClock.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite.h">
+      <Filter>_Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Scene\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Referee.cpp">
+      <Filter>Scene\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Table.cpp">
+      <Filter>Scene\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ball.cpp">
+      <Filter>Scene\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Cue.cpp">
+      <Filter>Scene\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Scene\Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Plane.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RotationSprite.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sphere.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Line.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsEngine.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextField.cpp">
+      <Filter>_Framework\_Dialog\_DialogItems\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TickBox.cpp">
+      <Filter>_Framework\_Dialog\_DialogItems\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComboBox.cpp">
+      <Filter>_Framework\_Dialog\_DialogItems\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DialogItem.cpp">
+      <Filter>_Framework\_Dialog\_DialogItems\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugDialog.cpp">
+      <Filter>_Framework\_Dialog\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Dialog.cpp">
+      <Filter>_Framework\_Dialog\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IniParser.cpp">
+      <Filter>_Framework\_IniParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LogGameWindow.cpp">
+      <Filter>_Framework\_Logger\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LogManager.cpp">
+      <Filter>_Framework\_Logger\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LogOutputWindow.cpp">
+      <Filter>_Framework\_Logger\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MessageManager.cpp">
+      <Filter>_Framework\_MessageManager\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BackBuffer.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Clock.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entity.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameWindow.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PerformanceClock.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteCache.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utilities.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector3.cpp">
+      <Filter>_Framework\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MAIN.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Summitive Pool Game.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

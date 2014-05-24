@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A3CD6498-1475-4BCE-A55C-D7B39FADB4EC}</ProjectGuid>
+    <RootNamespace>SummitivePoolGame</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Pool Game</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)Build Files\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)Build Files\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_Debug</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Source</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(SolutionDir)Build Files\Debug\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ProgramDatabaseFile>$(SolutionDir)Build Files\Debug\$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)Source</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(SolutionDir)Build Files\Release\vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ProgramDatabaseFile>$(SolutionDir)Build Files\Debug\$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Source\Application.inl" />
+    <None Include="Source\BackBuffer.inl" />
+    <None Include="Source\Ball.inl" />
+    <None Include="Source\BMP\Ball1.bmp" />
+    <None Include="Source\BMP\Ball10.bmp" />
+    <None Include="Source\BMP\Ball11.bmp" />
+    <None Include="Source\BMP\Ball12.bmp" />
+    <None Include="Source\BMP\Ball13.bmp" />
+    <None Include="Source\BMP\Ball14.bmp" />
+    <None Include="Source\BMP\Ball15.bmp" />
+    <None Include="Source\BMP\Ball2.bmp" />
+    <None Include="Source\BMP\Ball3.bmp" />
+    <None Include="Source\BMP\Ball4.bmp" />
+    <None Include="Source\BMP\Ball5.bmp" />
+    <None Include="Source\BMP\Ball6.bmp" />
+    <None Include="Source\BMP\Ball7.bmp" />
+    <None Include="Source\BMP\Ball8.bmp" />
+    <None Include="Source\BMP\Ball9.bmp" />
+    <None Include="Source\BMP\BallMask.bmp" />
+    <None Include="Source\BMP\BallWhite.bmp" />
+    <None Include="Source\BMP\Button_Restart.bmp" />
+    <None Include="Source\BMP\Button_RestartMask.bmp" />
+    <None Include="Source\BMP\Cue.bmp" />
+    <None Include="Source\BMP\CueLineCircle.bmp" />
+    <None Include="Source\BMP\CueLineCircleMask.bmp" />
+    <None Include="Source\BMP\CueMask.bmp" />
+    <None Include="Source\BMP\Table.bmp" />
+    <None Include="Source\BMP\TableAlternate.bmp" />
+    <None Include="Source\BMP\TableAlternateMask.bmp" />
+    <None Include="Source\BMP\TableMask.bmp" />
+    <None Include="Source\Button.inl" />
+    <None Include="Source\Cue.inl" />
+    <None Include="Source\Dialog.inl" />
+    <None Include="Source\DialogItem.inl" />
+    <None Include="Source\Entity.inl" />
+    <None Include="Source\Game.inl" />
+    <None Include="Source\GameWindow.inl" />
+    <None Include="Source\Line.inl" />
+    <None Include="Source\LogManager.inl" />
+    <None Include="Source\PhysicsEngine.inl" />
+    <None Include="Source\Plane.inl" />
+    <None Include="Source\Player.inl" />
+    <None Include="Source\RotationSprite.inl" />
+    <None Include="Source\Sphere.inl" />
+    <None Include="Source\Sprite.inl" />
+    <None Include="Source\SpriteCache.inl" />
+    <None Include="Source\Table.inl" />
+    <None Include="Source\Text.inl" />
+    <None Include="Source\Vector3.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Application.h" />
+    <ClInclude Include="Source\BackBuffer.h" />
+    <ClInclude Include="Source\Ball.h" />
+    <ClInclude Include="Source\Button.h" />
+    <ClInclude Include="Source\Clock.h" />
+    <ClInclude Include="Source\ComboBox.h" />
+    <ClInclude Include="Source\Cue.h" />
+    <ClInclude Include="Source\DebugDialog.h" />
+    <ClInclude Include="Source\Entity.h" />
+    <ClInclude Include="Source\Game.h" />
+    <ClInclude Include="Source\GameDefines.h" />
+    <ClInclude Include="Source\GameWindow.h" />
+    <ClInclude Include="Source\IniParser.h" />
+    <ClInclude Include="Source\Line.h" />
+    <ClInclude Include="Source\LogGameWindow.h" />
+    <ClInclude Include="Source\LogManager.h" />
+    <ClInclude Include="Source\LogOutputWindow.h" />
+    <ClInclude Include="Source\LogTarget.h" />
+    <ClInclude Include="Source\MessageManager.h" />
+    <ClInclude Include="Source\MessageTarget.h" />
+    <ClInclude Include="Source\PerformanceClock.h" />
+    <ClInclude Include="Source\PhysicsEngine.h" />
+    <ClInclude Include="Source\PhysicsTarget.h" />
+    <ClInclude Include="Source\Plane.h" />
+    <ClInclude Include="Source\Player.h" />
+    <ClInclude Include="Source\Referee.h" />
+    <ClInclude Include="Source\Resource.h" />
+    <ClInclude Include="Source\RotationSprite.h" />
+    <ClInclude Include="Source\Scene.h" />
+    <ClInclude Include="Source\Sphere.h" />
+    <ClInclude Include="Source\Sprite.h" />
+    <ClInclude Include="Source\SpriteCache.h" />
+    <ClInclude Include="Source\Table.h" />
+    <ClInclude Include="Source\Text.h" />
+    <ClInclude Include="Source\TextField.h" />
+    <ClInclude Include="Source\TickBox.h" />
+    <ClInclude Include="DebugDialog.h" />
+    <ClInclude Include="Dialog.h" />
+    <ClInclude Include="Source\Utilities.h" />
+    <ClInclude Include="Source\Vector3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Application.cpp" />
+    <ClCompile Include="Source\BackBuffer.cpp" />
+    <ClCompile Include="Source\Ball.cpp" />
+    <ClCompile Include="Source\Button.cpp" />
+    <ClCompile Include="Source\Clock.cpp" />
+    <ClCompile Include="Source\ComboBox.cpp" />
+    <ClCompile Include="Source\Cue.cpp" />
+    <ClCompile Include="Source\DebugDialog.cpp" />
+    <ClCompile Include="Source\Dialog.cpp" />
+    <ClCompile Include="Source\DialogItem.cpp" />
+    <ClCompile Include="Source\Entity.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\GameWindow.cpp" />
+    <ClCompile Include="Source\IniParser.cpp" />
+    <ClCompile Include="Source\Line.cpp" />
+    <ClCompile Include="Source\LogGameWindow.cpp" />
+    <ClCompile Include="Source\LogManager.cpp" />
+    <ClCompile Include="Source\LogOutputWindow.cpp" />
+    <ClCompile Include="Source\MAIN.cpp" />
+    <ClCompile Include="Source\MessageManager.cpp" />
+    <ClCompile Include="Source\PerformanceClock.cpp" />
+    <ClCompile Include="Source\PhysicsEngine.cpp" />
+    <ClCompile Include="Source\Plane.cpp" />
+    <ClCompile Include="Source\Player.cpp" />
+    <ClCompile Include="Source\Referee.cpp" />
+    <ClCompile Include="Source\RotationSprite.cpp" />
+    <ClCompile Include="Source\Sphere.cpp" />
+    <ClCompile Include="Source\Sprite.cpp" />
+    <ClCompile Include="Source\SpriteCache.cpp" />
+    <ClCompile Include="Source\Table.cpp" />
+    <ClCompile Include="Source\Text.cpp" />
+    <ClCompile Include="Source\TextField.cpp" />
+    <ClCompile Include="Source\TickBox.cpp" />
+    <ClCompile Include="Source\Utilities.cpp" />
+    <ClCompile Include="Source\Vector3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Summitive Pool Game.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
